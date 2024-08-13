@@ -1,0 +1,120 @@
+/* maxwidth:550px */
+body{
+    margin-top: 30px;
+    background-color: black;
+    /* background-image:linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%); */
+    color: white;
+}
+.nav{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.netflix-logo{
+    height: 50px;
+}
+.translation{
+    margin-right: 30px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    width: 140px;
+    border-radius: 8px;
+}
+.translation:hover{
+    border: 2px solid white;
+}       
+.sign-in{
+    width: 90px;
+    height: 35px;
+    border-radius: 8px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+.home_content{
+    margin-top:200px ;
+    text-align: center;
+}
+.home_content h1{
+    font-weight:1000;
+    font-size: 50px;
+}
+.home_content p{
+    font-size: 20px;
+}
+form{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+form input{
+    background-color: transparent;
+    width: 400px;
+    height:55px;
+    color: white;
+    border-radius: 2px;
+    border: 0.1px solid white;
+    font-size: 20px;
+    margin-right: 10px;
+}
+form button{
+    width: 200px;
+    height:55px;
+    color: white;
+    border-radius: 2px;
+    font-size: 20px;
+    background-color: red;
+    border: none;
+}
+.hr-line{
+    margin-top: 200px;
+    background-color: white;
+    height: 10px;
+}
+@media(max-width:550px){
+    .nav{
+        margin: 16px;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+    }
+    .netflix-logo{
+        height: 30px;
+        width: 85px
+    }
+    .translation, .sign-in{
+        height: 30px;
+        width: 85px;
+        font-size: 13px;
+        font-weight: 600;
+    }
+    .home_content h1{
+        font-size: 30px;
+        font-weight: 800;
+        padding: 0px 30px 0px 30px;   /* top right bottom left */
+        margin-top: -120px;
+    }
+    .home_content p{
+        padding: 10px 30px 0px 30px;
+        font-weight: 400;
+    }
+    .form-input{
+        width: 320px;
+        height: 50px;
+        margin-top: -90px;
+        border-radius: 10px;
+    }
+    .submit{
+        margin-top: 20px;
+        width: 150px;
+        height:50px;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+    .hr-line{
+        margin-top: 40px;
+    }
+}

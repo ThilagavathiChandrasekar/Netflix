@@ -1,0 +1,102 @@
+/* src/pages/AuthPage.css */
+
+.auth-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #111;
+  }
+  
+  .auth-content {
+    max-width: 450px;
+    padding: 60px 68px 40px;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+  }
+  
+  .auth-content h1 {
+    margin-bottom: 20px;
+  }
+  
+  .auth-content form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .auth-content input {
+    background: #333;
+    border: none;
+    margin-bottom: 20px;
+    padding: 15px;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .auth-content button {
+    background-color: #e50914;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  .auth-content p {
+    font-size: 16px;
+    color: #737373;
+  }
+  
+  .auth-content p span {
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .error {
+    color: #e50914;
+    margin-bottom: 20px;
+  }
+  @media (max-width: 768px) {
+    .auth-content {
+      padding: 30px;
+    }
+  
+    .auth-content h1 {
+      font-size: 1.8rem;
+    }
+  
+    .auth-content input,
+    .auth-content button {
+      font-size: 1rem;
+    }
+  
+    .auth-content p {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .auth-content {
+      padding: 20px;
+    }
+  
+    .auth-content h1 {
+      font-size: 1.5rem;
+    }
+  
+    .auth-content input,
+    .auth-content button {
+      font-size: 0.9rem;
+    }
+  
+    .auth-content p {
+      font-size: 0.8rem;
+    }
+  }

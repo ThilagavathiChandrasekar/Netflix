@@ -1,0 +1,91 @@
+
+.question-heading{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    font-weight: 1000;
+    padding: 20px;
+}
+.accordion{
+    height: 80px;
+    margin: auto;
+    width: 75%;
+}
+.accordion-item{
+    background-color: rgba(57, 56, 56, 0.272);
+    color: white;
+    border: none;
+    margin-top: 10px;
+    
+}
+.accordion-button{
+    border: none;
+    background-color: rgb(54, 54, 54);
+    color: white;
+    height: 80px;
+    font-size: 25px;
+}
+.accordion-button:hover{
+    background-color: rgb(66, 65, 65);
+    color: white;
+    box-shadow: none;
+}
+.accordion-body{
+    font-size: 25px;
+    background-color: rgb(39, 39, 39);
+}
+form{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 100px;
+}
+form input{
+    background-color: transparent;
+    width: 400px;
+    height:55px;
+    font-size: 20px;
+    color: white;
+    border-radius: 3px;
+    border: 0.1px solid white;
+    margin-right: 10px;
+}
+form button{
+    width: 200px;
+    height:55px;
+    font-size: 20px;
+    color: white;
+    border-radius: 3px;
+    background-color: red;
+    border: none;
+}
+
+form h1{
+    font-size: 20px;
+}
+@media(max-width:550px){
+    .accordion{
+        width: 320px;
+    }
+    .question-heading{
+        font-size: 30px;
+    }
+    .accordion-button,.accordion-body{
+        font-size: 19px;
+    }
+    form h1{
+        font-size: 19px;
+        text-align: center;
+    }
+    .form input{
+        width: 350px;
+        border-radius: 10px;
+        height: 50px;
+        margin-left: 30px;
+    }
+    .form button{
+        width: 150px;
+        margin: 20px 0px 0px 120px;
+        height: 50px;
+    }
+}
