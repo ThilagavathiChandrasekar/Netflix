@@ -127,7 +127,8 @@ form button{
     }
     form{
         display: flex;
-        flex-direction: column;
+        justify-content: space-around;
+        flex-wrap: wrap;
     }
     .hr-line{
         margin-top: 40px;

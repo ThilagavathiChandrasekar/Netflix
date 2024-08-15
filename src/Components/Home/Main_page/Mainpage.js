@@ -36,7 +36,7 @@ const Mainpage = ({setShowLogin}) => {
             <p>{t('description2')}</p> 
         </div>
         
-        <form className='d-flex flex-row'>
+        <form className='d-flex flex-row form-1'>
             <input
               type="email"
               placeholder="Email address"

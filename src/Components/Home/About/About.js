@@ -6,12 +6,20 @@ const About = () => {
   return (
     <>
     <div className='container-fluid'>
-          <div className=' about about-1 row'>
+          <div className=' about about-1' >
               <div className='about-img-content col-lg-6 col-md-6 col-sm-12' >
                 <h1>Enjoy on your TV</h1>
                 <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and  more.</p>
               </div>
-              <img src={assets.tv} alt='' className='about-img col-lg-6 col-md-6 col-sm-12' />
+              <div className='secImg'>
+              <img src={assets.tv} alt='' id='about-img1' className='about-img col-lg-6 col-md-6 col-sm-12' />
+              <video
+                src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v"
+                autoPlay
+                loop
+                muted
+              ></video>
+              </div>      
           </div>
           <hr className='hr-line' />
 
