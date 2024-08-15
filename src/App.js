@@ -8,11 +8,11 @@ function App() {
   return (
     <div className="App">
       <Routes>
-      <Route path='/Netflix' element={<Mainpage />} /> 
-      <Route path='/Netflix/signup' element={<Signup />} />   
-      <Route path='/Netflix/signup/plan' element={<Choose />} />
-      <Route path='/Netflix/signup/plan/netflix-movie' element={<MovieMain />} />
-      <Route path='/Netflix/signup/plan/netflix-movie/movie' element={<Movie />} />
+      <Route path='/' element={<Mainpage />} /> 
+      <Route path='/signup' element={<Signup />} />   
+      <Route path='/signup/plan' element={<Choose />} />
+      <Route path='/signup/plan/netflix-movie' element={<MovieMain />} />
+      <Route path='/signup/plan/netflix-movie/movie' element={<Movie />} />
       </Routes>
     </div>
   );
