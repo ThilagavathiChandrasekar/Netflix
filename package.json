@@ -1,6 +1,6 @@
 {
-  "home":"https://ThilagavathiChandrasekar.github.io/Netflix",
-  "name": "Netflix",
+  "home": "https://ThilagavathiChandrasekar.github.io/Netflix",
+  "name": "portfolio_project",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -20,8 +20,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -45,6 +45,7 @@
     ]
   },
   "devDependencies": {
+    "proxy": "https://api.themoviedb.org",
     "gh-pages": "^6.1.1"
   }
 }

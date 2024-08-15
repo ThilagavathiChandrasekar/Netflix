@@ -16,7 +16,7 @@ body{
     max-width: 100%;
     background-color: rgba(0, 0, 0, 0.75);
     color: white;
-    margin: 0;
+    margin: 0px;
     height: 760px;
 }
 .nav{
@@ -94,14 +94,15 @@ form button{
         flex-direction: row;
     }
     .netflix-logo{
-        height: 30px;
-        width: 85px
+        height: 40px;
+        width: 90px
     }
     .translation, .sign-in{
-        height: 30px;
-        width: 85px;
+        height: 35px;
+        width: 90px;
         font-size: 13px;
         font-weight: 600;
+        text-align: center;
     }
     .home_content h1{
         font-size: 30px;

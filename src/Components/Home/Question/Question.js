@@ -92,15 +92,15 @@ const Question = () => {
                 </div>
             </div>
 
-            <form className='d-flex flex-column'>
-                <h1>Ready to watch? Enter your email to create or restart your membership.</h1> 
+            <form className='d-flex flex-column second-form'>
+                <h1 className='question-form-content'>Ready to watch? Enter your email to create or restart your membership.</h1> 
                 <div className='form'>
                     <input
                         type="email"
                         placeholder="Email address"
                         required
                     />
-                    <button type="submit" className='submit' >Get Started <FaAngleRight /></button>
+                    <button type="submit" className='submit' id='submits' >Get Started <FaAngleRight /></button>
                 </div>
             </form>  
         </div>

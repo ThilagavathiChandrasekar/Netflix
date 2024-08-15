@@ -20,8 +20,11 @@ li:hover{
     margin-top: 10px;
 }
 @media(max-width:550px){
-    .footer1, .footer2, .footer3 {
+    .footer1, .footer2{
         margin-top: 180px;
+    }
+    .footer3, .footer4{
+        margin-top: 30px;
     }
 
     .footer-sub-content{
