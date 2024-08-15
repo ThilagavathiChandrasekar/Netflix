@@ -26,7 +26,7 @@ const Mainpage = ({setShowLogin}) => {
                     <option value="en">English</option>
                     <option value="ta">Tamil</option>
                 </select>
-                <Link to='/Netflix/signup'><button className='sign-in'>Sign in</button></Link> 
+                <Link to='/signup'><button className='sign-in'>Sign in</button></Link> 
           </div>
         </div>
 
