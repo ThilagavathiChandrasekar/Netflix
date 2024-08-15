@@ -1,4 +1,3 @@
-import netflix_background from './netflix_background.jpg';
 import netflix_logo from './netflix_logo.png';
 import netflix from './netflix.png';
 import tv from './tv.png';
@@ -9,7 +8,6 @@ import children from './children.png';
 
 export const assets ={
     netflix,
-    netflix_background,
     netflix_logo,
     tv,
     crossIcon,

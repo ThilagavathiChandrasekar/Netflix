@@ -1,6 +1,7 @@
 import React from 'react';
 import './Question.css';
 import HomeFooter from '../Home_Footer/HomeFooter';
+import { FaAngleRight } from "react-icons/fa6";
 const Question = () => {
   return (
     <>
@@ -99,7 +100,7 @@ const Question = () => {
                         placeholder="Email address"
                         required
                     />
-                    <button type="submit">Get Started</button>
+                    <button type="submit" className='submit' >Get Started <FaAngleRight /></button>
                 </div>
             </form>  
         </div>

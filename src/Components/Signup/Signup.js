@@ -3,7 +3,7 @@ import './Signup.css';
 import { useNavigate } from 'react-router-dom';
 
 const Signup = () => {
-  const [isLogin, setIsLogin] = useState(true); // Toggle between Login and Signup
+  const [isLogin, setIsLogin] = useState(true); 
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
@@ -11,8 +11,8 @@ const Signup = () => {
 
   // Predefined user credentials
   const predefinedUser = {
-    email: 'user@example.com',
-    password: 'password123',
+    email: 'thilaga@gmail.com',
+    password: 'thilaga123',
   };
 
   const handleSubmit = (e) => {
@@ -22,8 +22,7 @@ const Signup = () => {
       // Login logic
       if (email === predefinedUser.email && password === predefinedUser.password) {
         alert('Login successful!');
-        navigate('netflix-movie')
-        // Redirect to the homepage or dashboard
+        navigate('/signup/plan')
       } else {
         setError('Invalid email or password');
       }

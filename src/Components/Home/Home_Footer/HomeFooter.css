@@ -19,3 +19,12 @@ li:hover{
 .footer-sub-content{
     margin-top: 10px;
 }
+@media(max-width:550px){
+    .footer1, .footer2, .footer3 {
+        margin-top: 180px;
+    }
+
+    .footer-sub-content{
+        font-size: 15px;
+    }
+}
