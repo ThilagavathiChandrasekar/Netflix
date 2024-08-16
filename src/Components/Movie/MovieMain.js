@@ -14,7 +14,7 @@ const MovieMain = () => {
     <div className="movie-main container">
       <div className="search-container d-flex flex-row justify-content-between">
         <img src={assets.netflix} alt="Netflix Logo" className="netflix-logo" />
-        <Link to='/'><button className='sign-in'>Sign Out</button></Link> 
+        <Link to='/'><button className='sign-out'>Sign Out</button></Link> 
       </div>
         <input
           type="text"

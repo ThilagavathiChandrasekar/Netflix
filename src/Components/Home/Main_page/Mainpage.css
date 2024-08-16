@@ -10,7 +10,7 @@ body{
     position: relative;
     width: 100%;
     height:690px;
-    /* object-fit:contain; */
+    object-fit:contain;
 }
 .home{
     max-width: 100%;
@@ -133,5 +133,19 @@ form button{
     }
     .hr-line{
         margin-top: 40px;
+    }
+}
+@media(max-width:350px){
+    .sign-in{
+        width: 60px;
+        font-size:10px;
+    }
+    .translation{
+        width: 60px;
+        font-size: 10px;
+    }
+    .netflix-logo{
+        width: 20px;
+        height: 30px;
     }
 }

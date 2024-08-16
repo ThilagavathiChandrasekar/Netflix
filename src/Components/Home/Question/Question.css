@@ -96,3 +96,13 @@ form h1{
         text-align: center;
     } 
 }
+@media(max-width:350px){
+    .accordion{
+        width: 300px;
+    }
+    .question-form-content{
+        font-size: 18px;
+        width: 200px;
+        text-align: justify;
+    }
+}
