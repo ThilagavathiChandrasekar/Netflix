@@ -30,9 +30,7 @@ const MovieMain = () => {
               <img src={movie.image} alt={movie.name} className="movie-img" />
               <h2 className="movie-title">{movie.name}</h2>
               <p className="movie-overview">{movie.description}</p>
-              <Link to='/signup/plan/netflix-movie/movie'>
                 <button className="btn movie-btn">Watch Movie</button>
-              </Link>
             </div>
           ))
         ) : (

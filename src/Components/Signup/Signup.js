@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import './Signup.css';
 import { useNavigate } from 'react-router-dom';
-
 const Signup = () => {
   const [isLogin, setIsLogin] = useState(true); 
   const [email, setEmail] = useState('');
@@ -11,8 +10,8 @@ const Signup = () => {
 
   // Predefined user credentials
   const predefinedUser = {
-    email: 'thilaga@gmail.com',
-    password: 'thilaga123',
+    email: 'admin@gmail.com',
+    password: '123',
   };
 
   const handleSubmit = (e) => {
@@ -38,38 +37,40 @@ const Signup = () => {
   };
 
   return (
-    <div className="auth-container">
-      <div className="auth-content">
-        <h1>{isLogin ? 'Sign In' : 'Sign Up'}</h1>
-        {error && <p className="error">{error}</p>}
-        <form onSubmit={handleSubmit}>
-          <input
-            type="email"
-            placeholder="Email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-          />
-          <input
-            type="password"
-            placeholder="Password"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-          />
-          <button type="submit">{isLogin ? 'Sign In' : 'Sign Up'}</button>
-        </form>
-        <p>
-          {isLogin ? (
-            <>
-              New to Netflix? <span onClick={() => setIsLogin(false)}>Sign up now.</span>
-            </>
-          ) : (
-            <>
-              Already have an account? <span onClick={() => setIsLogin(true)}>Sign in now.</span>
-            </>
-          )}
-        </p>
+    <>
+      <div className="auth-container">
+        <div className="auth-content">
+          <h1>{isLogin ? 'Sign In' : 'Sign Up'}</h1>
+          {error && <p className="error">{error}</p>}
+          <form onSubmit={handleSubmit}>
+            <input
+              type="email"
+              placeholder="admin@gmail.com"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+            />
+            <input
+              type="password"
+              placeholder="123"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+            />
+            <button type="submit">{isLogin ? 'Sign In' : 'Sign Up'}</button>
+          </form>
+          <p>
+            {isLogin ? (
+              <>
+                New to Netflix? <span onClick={() => setIsLogin(false)}>Sign up now.</span>
+              </>
+            ) : (
+              <>
+                Already have an account? <span onClick={() => setIsLogin(true)}>Sign in now.</span>
+              </>
+            )}
+          </p>
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 
