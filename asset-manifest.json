@@ -1,19 +1,39 @@
 {
   "files": {
-    "main.css": "/Netflix/static/css/main.1b2cd767.css",
-    "main.js": "/Netflix/static/js/main.3632cd6f.js",
+    "main.css": "/Netflix/static/css/main.5003bb8c.css",
+    "main.js": "/Netflix/static/js/main.ee1e21a8.js",
     "static/media/children.png": "/Netflix/static/media/children.836efd88498e14ebed8e.png",
     "static/media/tv2.png": "/Netflix/static/media/tv2.ff81d825b399d890f9b4.png",
     "static/media/netflix-bg.jpg": "/Netflix/static/media/netflix-bg.32bb8c093404ed3e7e05.jpg",
+    "static/media/movie_19.jpg": "/Netflix/static/media/movie_19.2814b8e489ab57615e5a.jpg",
+    "static/media/movie_1.jpg": "/Netflix/static/media/movie_1.700cdd954e3f75bfb833.jpg",
+    "static/media/movie_18.jpg": "/Netflix/static/media/movie_18.5e928371742d0fd4b3de.jpg",
+    "static/media/movie_8.jpg": "/Netflix/static/media/movie_8.8a71fbcba7f7eacc7e83.jpg",
+    "static/media/movie_14.jpg": "/Netflix/static/media/movie_14.6bcd78646f35e859b2ce.jpg",
+    "static/media/movie_17.jpg": "/Netflix/static/media/movie_17.17ffb61805ef3fa47835.jpg",
+    "static/media/movie_2.jpg": "/Netflix/static/media/movie_2.3263735de4f33d1e121f.jpg",
+    "static/media/movie_15.jpg": "/Netflix/static/media/movie_15.8a131fcfb1cfe02d189e.jpg",
+    "static/media/movie_6.jpg": "/Netflix/static/media/movie_6.d1b6e9e01769243c05dd.jpg",
+    "static/media/movie_7.jpg": "/Netflix/static/media/movie_7.e52cb8c813409cb30d8c.jpg",
+    "static/media/movie_3.jpg": "/Netflix/static/media/movie_3.5fb7ebdbcb0b26cb6633.jpg",
+    "static/media/movie_13.jpg": "/Netflix/static/media/movie_13.bbc852d93ddbb47dc64a.jpg",
+    "static/media/movie_16.jpg": "/Netflix/static/media/movie_16.39898befe15f8e489782.jpg",
+    "static/media/movie11.jpg": "/Netflix/static/media/movie11.04ab6154b5d33429ccfa.jpg",
     "static/media/phone.jpg": "/Netflix/static/media/phone.063578d5b6d5ab4155ec.jpg",
+    "static/media/movie_20.jpg": "/Netflix/static/media/movie_20.4b89a62d99a31a74e5a0.jpg",
+    "static/media/movie_10.jpg": "/Netflix/static/media/movie_10.b6ac590ad5635e7b93ce.jpg",
+    "static/media/movie_5.jpg": "/Netflix/static/media/movie_5.f6e021131d8665500f88.jpg",
+    "static/media/movie_4.jpg": "/Netflix/static/media/movie_4.ede941eb5dd2137af3c1.jpg",
+    "static/media/movie_12.jpg": "/Netflix/static/media/movie_12.4b6df7a22c5511183520.jpg",
+    "static/media/movie_9.jpg": "/Netflix/static/media/movie_9.2cc18b94612a081415db.jpg",
     "static/media/netflix.png": "/Netflix/static/media/netflix.b8299f5ddba8f0db2953.png",
     "static/media/tv.png": "/Netflix/static/media/tv.0049bc70babc1f94cf88.png",
     "index.html": "/Netflix/index.html",
-    "main.1b2cd767.css.map": "/Netflix/static/css/main.1b2cd767.css.map",
-    "main.3632cd6f.js.map": "/Netflix/static/js/main.3632cd6f.js.map"
+    "main.5003bb8c.css.map": "/Netflix/static/css/main.5003bb8c.css.map",
+    "main.ee1e21a8.js.map": "/Netflix/static/js/main.ee1e21a8.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b2cd767.css",
-    "static/js/main.3632cd6f.js"
+    "static/css/main.5003bb8c.css",
+    "static/js/main.ee1e21a8.js"
   ]
 }
