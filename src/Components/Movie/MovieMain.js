@@ -93,3 +93,26 @@ const MovieMain = () => {
 };
 
 export default MovieMain;
+
+
+
+
+// import React from 'react';
+// import { food_list } from './path_to_your_file';
+
+// const FoodListComponent = () => {
+//     return (
+//         <div>
+//             {food_list.map((food) => (
+//                 <div key={food._id}>
+//                     <img src={food.image} alt={food.name} />
+//                     <h3>{food.name}</h3>
+//                     <p>{food.description}</p>
+//                     <p>Price: ${food.price}</p>
+//                 </div>
+//             ))}
+//         </div>
+//     );
+// };
+
+// export default FoodListComponent;
