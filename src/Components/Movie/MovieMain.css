@@ -12,6 +12,15 @@
     text-align: center;
     margin-top: 20px;
   }
+  .sign-out{
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 44px;
+    font-size: 14px;
+  }
    .movie-main{
     margin-top: 20px;
   }
